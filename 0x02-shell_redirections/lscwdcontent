@@ -1,0 +1,14 @@
+total 22
+drwxr-xr-x 1 Uyito 197121  0 Jul 14 00:20 .
+drwxr-xr-x 1 Uyito 197121  0 Jul 10 15:47 ..
+-rwxr-xr-x 1 Uyito 197121 34 Jul 10 15:49 0-hello_world
+-rwxr-xr-x 1 Uyito 197121 36 Jul 11 14:24 1-confused_smiley
+-rwxr-xr-x 1 Uyito 197121 30 Jul 11 14:33 2-hellofile
+-rwxr-xr-x 1 Uyito 197121 41 Jul 11 14:50 3-twofiles
+-rwxr-xr-x 1 Uyito 197121 31 Jul 11 14:54 4-lastlines
+-rwxr-xr-x 1 Uyito 197121 31 Jul 11 15:20 5-firstlines
+-rwxr-xr-x 1 Uyito 197121 40 Jul 11 15:24 6-third_line
+-rwxr-xr-x 1 Uyito 197121 71 Jul 14 00:08 7-file
+-rwxr-xr-x 1 Uyito 197121 41 Jul 14 01:49 8-cwd_state
+-rw-r--r-- 1 Uyito 197121  4 Jul 10 14:51 README.md
+-rw-r--r-- 1 Uyito 197121  0 Jul 14 01:50 ls_cwd_content
