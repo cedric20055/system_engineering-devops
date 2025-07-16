@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script loops through non-hidden files and prints the name after the first dash
+
+for file in *; do
+  # Skip if not a regular file or if it doesn't contain a dash
+  [[ ! -f "$file" || "$file" != *-* ]] && { echo "${file#*-}"; continue; }
+  # Print the substring after the first dash
+  echo "${file#*-}"
+done
