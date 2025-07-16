@@ -1,2 +1,2 @@
 #!/bin/bash
-create_var() { local BEST="School"; echo "BEST=$BEST" } create_var
+create_var() {local BEST="School" echo "BEST=$BEST" } create_var
