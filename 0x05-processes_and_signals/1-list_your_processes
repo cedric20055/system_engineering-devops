@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all processes with UID, PID, %CPU, %MEM, VSZ, RSS, TTY, STAT, START, TIME, and COMMAND in a hierarchical tree
+# This script displays its own Process ID (PID)
 
-ps -e -o uid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,cmd --forest
+echo $$  # Outputs the PID of the current script
