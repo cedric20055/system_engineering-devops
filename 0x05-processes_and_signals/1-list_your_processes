@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script lists all processes (all users, with/without TTY) in a hierarchical format
+
+ps -e -f --forest
