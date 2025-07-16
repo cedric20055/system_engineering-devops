@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-# This script displays its own Process ID (PID)
+#!/bin/bash
 
-echo $$  # Outputs the PID of the current script
+# Display all processes in a user-friendly format with hierarchy
+ps auxf --sort=pid
