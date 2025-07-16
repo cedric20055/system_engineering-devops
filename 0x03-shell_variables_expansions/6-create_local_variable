@@ -1,2 +1,2 @@
 #!/bin/bash
-set_best(){ local BEST="School"; }; set_best
+set_best(){ local BEST="School" }, set_best
