@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all processes (all users, with/without TTY) in a hierarchical format
+# This script lists all processes with UID, PID, %CPU, %MEM, VSZ, RSS, TTY, STAT, START, TIME, and COMMAND in a hierarchical tree
 
-ps -e -f --forest
+ps -e -o uid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,cmd --forest
