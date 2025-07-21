@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Forcibly kill any running 7-highlander process using SIGKILL
+
+# Find matching process(es) by name and kill them
+pkill -9 -f "7-highlander" 2>/dev/null || true
