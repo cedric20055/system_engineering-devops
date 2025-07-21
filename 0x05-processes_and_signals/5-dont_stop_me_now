@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # Terminates any running 4-to_infinity_and_beyond processes
 
-# Find all PIDs matching the script name
 pids=$(pgrep -f "4-to_infinity_and_beyond")
 
-# If any PIDs found, kill them silently
 if [ -n "$pids" ]; then
-  kill $pids
+  kill "$pids"
 fi
