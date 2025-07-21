@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Infinite loop: prints phrase, traps SIGTERM to show invincible message and keep running
+# Infinite loop printing phrase and echo invincible message on SIGTERM
 
+# Set the SIGTERM handler once
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
