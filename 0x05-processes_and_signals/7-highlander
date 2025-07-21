@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Infinite loop that traps SIGTERM and prints invincible message before continuing indefinitely
+# Infinite loop printing the phrase, handles SIGTERM by printing a message and continuing
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
   echo "To infinity and beyond"
-  sleep 2 &  # run sleep in background
-  wait        # allow bash to catch SIGTERM immediately
+  sleep 2 &           # run sleep in background
+  wait $!             # wait for that specific sleep, allowing trap to fire immediately
 done
