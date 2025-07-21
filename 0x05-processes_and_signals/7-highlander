@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Infinite loop that handles SIGTERM by printing a message and continuing
+# Infinite loop: prints phrase, traps SIGTERM to show invincible message and keep running
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
