@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Find and terminate all running instances of 4-to_infinity_and_beyond
+
+# Use pgrep to find PIDs of the script, then kill each
+pids=$(pgrep -f "4-to_infinity_and_beyond")
+
+if [ -z "$pids" ]; then
+  echo "No running 4-to_infinity_and_beyond processes found."
+  exit 0
+fi
+
+echo "Terminating processes:"
+for pid in $pids; do
+  echo " - PID $pid"
+  kill "$pid"
+done
